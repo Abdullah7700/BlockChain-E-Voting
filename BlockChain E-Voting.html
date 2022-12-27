@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">
+    <title>BlockChain E-Voting</title>
+    <style>
+        h1 {
+          font-family: 'Roboto Mono', monospace;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="h-screen bg-black grid place-items-center">
+        <div class="bg-red grid place-items-center">
+            <h1 class="text-slate-200 text-3xl font-bold">BlockChain E-voting. Securing Democracy</h1>
+            <!-- <p class="text-slate-200 font-extralight">Scroll down</p> -->
+        </div>
+    </div>
+    <div class="h-screen grid place-items-center">
+        <form method='POST' enctype='multipart/form-data' class="grid place-items-center">
+            <label for="fname">First Name:</label>
+            <input type='text' id='fname' class="
+                px-2
+                py-1
+                text-sm
+                font-normal
+                text-gray-700
+                bg-white bg-clip-padding
+                border border-solid border-gray-300
+                rounded
+                transition
+                ease-in-out
+                m-0
+                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
+            
+            <label for="lname">Last Name:</label>
+            <input type='text' id='lname' class="
+                px-2
+                py-1
+                text-sm
+                font-normal
+                text-gray-700
+                bg-white bg-clip-padding
+                border border-solid border-gray-300
+                rounded
+                transition
+                ease-in-out
+                m-0
+                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
+
+            <label for="CNIC">CNIC Number:</label>
+            <input type='text' id='CNIC' class="
+                px-2
+                py-1
+                text-sm
+                font-normal
+                text-gray-700
+                bg-white bg-clip-padding
+                border border-solid border-gray-300
+                rounded
+                transition
+                ease-in-out
+                m-0
+                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
+
+            <br><br><br><p>Please vote for your candidate of choice:</p>
+              <input type="radio" id="c1" name="fav_language" value="HTML">
+              <label for="c1">Asim Munir</label>
+              <input type="radio" id="c2" name="fav_language" value="CSS">
+              <label for="c2">Asim Munir</label><br>
+
+            <input type='submit' value='Vote' class="bg-slate-500
+                text-slate-800
+                bg-transparent
+                mt-2
+                border border-solid border-slate-900
+                hover:bg-slate-900 hover:text-white
+                active:bg-blue-600
+                font-bold
+                uppercase
+                text-sm
+                px-3
+                py-1
+                rounded
+                outline-none
+                focus:outline-none
+                ease-linear
+                transition-all
+                duration-150 cursor-pointer">
+        </form>
+    </div>
+</body>
+</html>
